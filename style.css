@@ -1,0 +1,42 @@
+body{
+  font-family: 'open sans', sans-serif;
+}
+header {
+  background-color: #404041;
+  color: #ED458B;
+  font-weight: 700;
+  text-align: center;
+  font-size: 3em;
+
+}
+.guesser{
+  color: #E6E7E8;
+  font-weight: 300;
+
+}
+main {
+  border: 1px hidden black;
+  text-align: center;
+  margin: 30px;
+
+}
+input{
+  width: 350px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+button{
+  background-color:#929497;
+  border: none;
+  border-radius: 16px;
+  margin: 30px 10px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 8px 60px;
+}
+button:hover{
+  background-color: #EB008B
+}
