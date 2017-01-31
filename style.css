@@ -30,7 +30,7 @@ input{
 button{
   background-color:#929497;
   border: none;
-  border-radius: 16px;
+  border-radius: 20px;
   margin: 30px 10px;
   color: #FFF;
   font-size: 16px;
@@ -39,4 +39,13 @@ button{
 }
 button:hover{
   background-color: #EB008B
+}
+.user-guess{
+  font-size: 7em;
+  color: #ED458B;
+  font-weight: 300;
+  margin: 10px;
+}
+section{
+  border: 1px hidden black;
 }
