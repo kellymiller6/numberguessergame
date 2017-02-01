@@ -37,6 +37,10 @@ button{
   font-weight: 300;
   padding: 8px 60px;
 }
+button:disabled {
+  background-color: #d0d2d3;
+  color: #ffffff;
+}
 button:hover{
   background-color: #EB008B
 }

@@ -9,16 +9,17 @@
   <body>
     <header role="banner">Number <span class="guesser">Guesser </span></header>
     <main>
-      <input type="number" placeholder="Enter your guess" ID="guess-input">
+      <input id="guess-input" type="number" placeholder="Enter your guess">
       <section class="buttons">
-        <button ID="guess">Guess</button>
-        <button ID="clear">Clear</button>
+        <button id="guess-btn" type="button" name="button">Guess</button>
+        <button id="clear-btn" type="button" name="button">Clear</button>
       </section>
       <section class="last-guess">
         <p>Your last guess was</p>
-        <p class="user-guess" id="showUserGuess">17</p>
+        <p class="user-guess" id="showUserGuess"></p>
+        <p id="hint"></p>
       </section>
-      <button type="text" ID="reset">Reset</button>
+      <button type="button" name="button" id="reset-btn">Reset</button>
     </main>
     <script src="scripts.js"></script>
   </body>
