@@ -53,3 +53,14 @@ button:hover{
 section{
   border: 1px hidden black;
 }
+@media screen and (max-width: 448px) {
+  button {
+    margin: 5%;
+    padding: 8px 100px;
+  }
+  header {
+    font-size: 2em;
+  }
+  input{
+    width: 100%;
+  }
