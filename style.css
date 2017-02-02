@@ -1,25 +1,26 @@
 body{
   font-family: 'open sans', sans-serif;
 }
+
 header {
   background-color: #404041;
   color: #ED458B;
   font-weight: 700;
   text-align: center;
   font-size: 3em;
-
 }
+
 .guesser-font{
   color: #E6E7E8;
   font-weight: 300;
-
 }
+
 main {
   border: 1px hidden black;
   text-align: center;
   margin: 30px;
-
 }
+
 input{
   width: 350px;
   height: 30px;
@@ -37,22 +38,24 @@ button{
   font-weight: 300;
   padding: 8px 60px;
 }
+
 button:disabled {
   background-color: #d0d2d3;
   color: #ffffff;
 }
+
 button:hover{
   background-color: #EB008B
 }
+
 .user-guess{
   font-size: 7em;
   color: #ED458B;
   font-weight: 300;
   margin: 10px;
 }
-section{
-  border: 1px hidden black;
-}
+
+
 @media screen and (max-width: 448px) {
   button {
     margin: 15px auto;
