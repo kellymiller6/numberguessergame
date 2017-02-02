@@ -9,7 +9,7 @@ header {
   font-size: 3em;
 
 }
-.guesser{
+.guesser-font{
   color: #E6E7E8;
   font-weight: 300;
 
@@ -55,7 +55,7 @@ section{
 }
 @media screen and (max-width: 448px) {
   button {
-    margin: 5%;
+    margin: 15px auto;
     padding: 8px 100px;
   }
   header {
